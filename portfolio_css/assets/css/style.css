@@ -1,0 +1,298 @@
+.nav {
+    display:flex;
+    background:#D9D9D9;
+    padding: 8px 20px;
+    margin: 1px ;
+    font-size:16px;
+    color:black;
+    width: 100%;
+    height: 65px;
+    position:marker;
+}
+.social{
+    width: 25px;
+}
+a{
+    word-spacing: 25px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+
+}
+.icon{
+    margin-left: 35%;
+}
+#dini{
+    width: 49%;
+
+}
+.di {
+    width: 23%;
+}
+
+.imgClass{
+    width: 2800px;
+
+}
+
+
+.profile{
+    background-color: black;
+    color: white;
+    display: block;
+    font-size: 2em;
+    position: relative;
+    left: 50%;
+    bottom: 475px;
+    width: 50%;
+    text-align: center;
+    font-family:"Ink Free" ;
+}
+
+/* About Css*/
+
+#About{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: 376px;
+}
+
+#about_P{
+    font-family: Inconsolata;
+    font-size: 50px;
+    position: relative;
+    bottom: 1495px;
+    left: 386px;
+    color: white;
+}
+#img2{
+    position: relative;
+    bottom: 990px;
+    right: 50px;
+}
+
+.title{
+    color: cornflowerblue;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+#about2{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: 376px;
+    position: relative;
+    bottom: 1519px;
+}
+
+#skill{
+    font-size: 15px;
+    color: white;
+}
+
+.square{
+    width: 1100px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+}
+
+#education{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: 1542px;
+
+}
+#education_p{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 2010px;
+    left: 75px;
+}
+.edu_h2{
+    position: relative;
+    left: 180px;
+    bottom: -35px;
+    color: cornflowerblue;
+    font-size: 40px;
+}
+#bioData{
+    background-color: #D9D9D9;
+    position: relative;
+    bottom: 2147px;
+    left: 725px;
+    width: 185px;
+    height: 60px;
+}
+
+#Project{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: 2145px;
+}
+.project{
+    width: 188px;
+    height: 183px;
+    position: relative;
+    left: 18px;
+}
+
+#project3{
+    position: relative;
+    bottom: 494px;
+    left: 270px;
+    width: 230px;
+    height: 181px;
+
+}
+#project4{
+    position: relative;
+    bottom: 494px;
+    left: 270px;
+}
+
+#project5{
+    position: relative;
+    bottom: 980px;
+    left: 583px;
+
+}
+#project6{
+    position: relative;
+    bottom: 989px;
+    left: 583px;
+}
+
+#h3_1{
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+}
+
+#h3_2{
+    position: relative;
+    left: 305px;
+    bottom: 255px;
+}
+
+#h3_3{
+    position: relative;
+    bottom: 501px;
+    left: 621px;
+}
+#h3_4{
+    position: relative;
+    bottom: 514px;
+    left: 24px;
+}
+#h3_5{
+    position: relative;
+    bottom: 760px;
+    left: 295px;
+}
+#h3_6{
+    position: relative;
+    bottom: 1007px;
+    left: 636px;
+}
+
+
+
+
+
+#assignment{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: 2172px;
+}
+.assignment{
+    width: 188px;
+    height: 183px;
+    position: relative;
+    left: 20px;
+
+}
+
+#assignment3{
+    position: relative;
+    bottom: 494px;
+    left: 270px;
+
+}
+#assignment4{
+    position: relative;
+    bottom: 494px;
+    left: 270px;
+}
+
+#assignment5{
+    position: relative;
+    bottom: 989px;
+    left: 583px;
+
+}
+#assignment6{
+    position: relative;
+    bottom: 989px;
+    left: 583px;
+}
+
+#ah3_1{
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+}
+
+#ah3_2{
+    position: relative;
+    left: 305px;
+    bottom: 255px;
+}
+
+#ah3_3{
+    position: relative;
+    bottom: 501px;
+    left: 621px;
+}
+#ah3_4{
+    position: relative;
+    bottom: 518px;
+    left: 24px;
+}
+#ah3_5{
+    position: relative;
+    bottom: 763px;
+    left: 295px;
+}
+#ah3_6{
+    position: relative;
+    bottom: 1011px;
+    left: 621px;
+}
+
+#Gallery{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 580px;
+    position: relative;
+    bottom: 2167px;
+}
+
+#img1{
+
+}
