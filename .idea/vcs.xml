@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assets/assignment/Assignment4r" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assets/assignment/Assignment7-pos-system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assets/assignment/Assignment_08-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assets/assignment/assignment_09_html_css_js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assets/assignment/html assignment 3/Assignment_03" vcs="Git" />
   </component>
 </project>

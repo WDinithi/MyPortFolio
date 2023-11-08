@@ -1,0 +1,4701 @@
+.header{
+    position: relative;
+    bottom: 7px;
+    right: 8px;
+
+}
+body{
+
+
+}
+.contactBody{
+    overflow-x: hidden;
+    background-color: #5a3352;
+    position: relative;
+    top: 155px;
+    overflow-y: hidden;
+}
+.nav {
+    background:#D9D9D9;
+    padding: 8px 20px;
+    margin: 1px ;
+    font-size:24px;
+    color:black;
+    width: 100%;
+    height: 65px;
+    z-index: 1;
+    word-spacing: 15px;
+    position: fixed;
+    top: 0px;
+
+
+}
+.social{
+    width: 25px;
+}
+a{
+    word-spacing: 25px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+
+}
+.icon{
+    margin-left: 30%;
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+}
+#dini{
+    position: relative;
+    top: 2px;
+    width: 485px;
+    height: 490px;
+    left: 25px;
+    border-radius: 421px;
+
+}
+.diniClass{
+    width: 540px;
+    height: 135%;
+    position: relative;
+    bottom: 610px;
+    right: 395px;
+    border-radius: 499px;
+
+    // circle color change
+
+     height: 200px;
+
+    background-color: #7182EA;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    animation: animationColors 10s ease-in-out 1s, ease-in 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes animationColors {
+    0% {
+        background: #7182EA;
+    }
+    25% {
+        background: #D78520;
+    }
+    50% {
+        background: #72B851;
+    }
+    75% {
+        background: #8AD2DA;
+    }
+    100% {
+        background: #CFBBE4;
+    }
+}
+.di {
+    width: 23%;
+}
+.profile{
+    background-color: #4c394a;
+    color: white;
+    display: block;
+    font-size: 2em;
+    position: relative;
+    left: 72%;
+    bottom: 884px;
+    width: 50%;
+    font-family: emoji;
+    animation: effect 2s linear infinite;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.h1Main{
+    color: transparent;
+    animation: effect 2s linear infinite;
+}
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+                #008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    25% {
+        background: linear-gradient(
+                #D78520, #00FF00);
+        -webkit-background-clip: text;
+
+    }
+    50% {
+        background: linear-gradient(
+                #72B851, #00FF00);
+        -webkit-background-clip: text;
+
+    }
+    75% {
+        background: linear-gradient(
+                #8AD2DA, #00FF00);
+        -webkit-background-clip: text;
+
+    }
+
+    100% {
+        background: linear-gradient(
+                #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+#typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    font-size: 1.6rem;
+    width: 500px;
+}
+.container {
+    display: inline-block;
+}
+@keyframes typing {
+    from { width: 100px}
+    to { width: 50% }
+}
+.social{
+    width: 25px;
+}
+a{
+    word-spacing: 25px;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+
+
+}
+.di {
+    width: 23%;
+}
+.imgClass{
+    height: 387px;
+}
+.aboutClass{
+
+}
+#imgId{
+    background-color: #cbb8c8;
+    position: relative;
+    top: -79px;
+    width: 1517px;
+    right: 7px;
+    height: 645px;
+}
+#About{
+    background-color: #744461;
+    width: 1320px;
+    height: 550px;
+    position: relative;
+    top: 115px;
+    left: 112px;
+}
+#glryBody{
+    background-color: #cfbbe4;
+    /*overflow-y: hidden;*/
+}
+#about_body{
+    overflow-x: hidden;
+    background-color: #5a3352;
+    height: 30px;
+    overflow-y: hidden;
+    top: -20px;
+
+}
+#about_P{
+    font-family: cursive;
+    font-size: 34px;
+    position: relative;
+    bottom: 910px;
+    left: 645px;
+    color: rgb(204 190 249);
+    word-spacing: 14px;
+
+}
+.next{
+    width: 64px;
+    position: relative;
+    bottom: 100px;
+    left: 665px;
+}
+.previous{
+    width: 64px;
+    position: relative;
+    bottom: 1230px;
+    left: -22px;
+}
+#img2{
+    position: relative;
+    bottom: 430px;
+    right: 18px;
+
+}
+.title{
+    position: relative;
+    left: 481px;
+    top: 25px;
+    color: #000000;;
+    font-size: 40px;
+}
+#projectMain{
+
+}
+#imgAbout{
+    width: 485PX;
+    height: 526PX;
+    position: relative;
+    top: 38px;
+    left: 52px;
+
+    --c: #905ec7; /* the border color */
+    --b: 10px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background:
+            conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+            var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+            conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+            0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .3s, background-position .3s .3s;
+    cursor: pointer;
+}
+img:hover {
+    --_i: 100%;
+    transition: .3s, background-size .3s .3s;
+
+
+
+}
+#about2 {
+    background-color: #93607f;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 52px;
+}
+#skill{
+    font-size: 11px;
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 110px;
+}
+#language{
+    background-color: #744461;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: 1338px;
+    left: 52px;
+}
+.square1{
+    width: 900px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+.square3{
+    width: 900px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+.square4{
+    width: 750px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+.square5{
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+.square6{
+    width: 600px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+.square7{
+    width: 600px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+.square2{
+    width: 1000px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    left: 10px;
+}
+
+#education{
+    background-color: #815b72;
+    width: 1372px;
+    height: 550px;
+    position: relative;
+    bottom: -140px;
+    left: 55px
+
+}
+#education_p{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 245px;
+    bottom: 355px;
+    width: 760px;
+}
+.edu_h2{
+    position: relative;
+    left: 400px;
+    top: -80px;
+    color: #210b23;
+    font-size: 40px;
+
+}
+#bioData{
+    background-color: #d9b9dd;
+    position: relative;
+    bottom: 500px;
+    left: 955px;
+    width: 185px;
+    height: 60px;
+    border-radius: 250px;
+}
+#next1{
+    width: 64px;
+    position: relative;
+    top: 437px;
+    left: 1165px;
+}
+#previous2{
+    width: 64px;
+    position: relative;
+    left: 10px;
+    top: 430px;
+}
+#previous1{
+    width: 64px;
+    position: relative;
+    left: 57px;
+    bottom: 50px;
+}
+#Project {
+    background-color: #744461;
+    width: 1372px;
+    position: relative;
+    overflow-y: hidden;
+    top: -30px;
+    overflow-x: hidden;
+
+
+}
+#projectDiv0{
+    position: relative;
+    top: 80px;
+}
+#previous-project{
+    position: relative;
+    bottom: 1795px;
+    left: 25px;
+}
+#project_next{
+    position: relative;
+    bottom: 980px;
+    left: 1390px;
+
+}
+
+#projectDiv{
+    position: relative;
+    top: 1020px;
+}
+.project {
+    width: 415px;
+    position: relative;
+    left: 20px;
+    transition: 1s;
+    border-radius: 10px;
+    border: 3px solid #D9D9D9;
+}
+#project1{
+
+}
+#project2{
+    position: relative;
+    left: 887px;
+    bottom: 340px;
+    width: 300px;
+    height: 237px;
+}
+#project3{
+    position: relative;
+    bottom: 885px;
+    left: 14px;
+    height: 231px;
+    width: 360px;
+    transition: 1s;
+    border-radius: 10px;
+    border: 3px solid #D9D9D9;
+
+}
+#project4{
+    position: relative;
+    bottom: 1200px;
+    left: 1025px;
+    width: 359px;
+    height: 255px;
+}
+
+#project5{
+    position: relative;
+    bottom: 740px;
+    left: 457px;
+    width: 400px;
+    height: 300px;
+
+}
+#project6{
+    position: relative;
+    bottom: 740px;
+    left: 457px;
+    width: 400px;
+    height: 300px;
+}
+
+#h3_1{
+    position: relative;
+    bottom: 485px;
+    left: 243px;
+    font-size: 32px;
+}
+
+#h3_2{
+    position: relative;
+    left: 1075px;
+    bottom: 840px;
+    font-size: 30px;
+}
+
+#h3_3 {
+    position: relative;
+    bottom: 1215px;
+    left: 205px;
+    color: white;
+    font-size: 30px;
+}
+#h3_4{
+    position: relative;
+    bottom: 1559px;
+    left: 1233px;
+    font-size: 30px;
+    color: white;
+}
+#h3_5{
+    position: relative;
+    bottom: 760px;
+    left: 295px;
+}
+#h3_6{
+    position: relative;
+    bottom: 1007px;
+    left: 636px;
+}
+
+
+#assignment{
+    overflow-x: hidden;
+    background-color: #85557b;
+    position: relative;
+    top: 74px;
+    overflow-y: hidden;
+    width: 1499px;
+    right: 8px;
+    height: 1810px;
+}
+.assignment{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    transition: 1s;
+    border-radius: 10px;
+    border: 3px solid #D9D9D9;
+
+}
+
+.assignment:hover{
+    transform: rotate3d(1,1,1,360deg);
+    border: 3px solid red;
+
+}
+
+#assignment2{
+position: relative;
+top: 61px;
+}
+
+#assignment3{
+    position: relative;
+    bottom: 740px;
+    left: 457px;
+    width: 400px;
+    height: 300px;
+
+
+}
+#assignment4{
+    position: relative;
+    bottom: 677px;
+    left: 460px;
+    width: 400px;
+    height: 300px;
+}
+
+#assignment5{
+    position: relative;
+    bottom: 1480px;
+    left: 900px;
+    width: 400px;
+    height: 300px;
+}
+
+#assignment6{
+    position: relative;
+    bottom: 1422px;
+    left: 901px;
+}
+
+#assignment7 {
+    position: relative;
+    bottom: 1362px;
+    left: 10px;
+}
+
+#assignment8 {
+    position: relative;
+    bottom: 1730px;
+    left: 455px;
+}
+
+#assignment9 {
+    position: relative;
+    bottom: 2098px;
+    left: 901px;
+}
+
+#assignment10 {
+    position: relative;
+    bottom: 2040px;
+    left: 6px;
+
+}
+#assignment11 {
+    position: relative;
+    bottom: 2408px;
+    left: 450px;
+}
+
+#assignment12 {
+    position: relative;
+    bottom: 2775px;
+    left: 910px;
+
+}
+
+#ah3_1{
+    position: relative;
+    bottom: -24px;
+    left: 130px;
+
+}
+
+#ah3_2 {
+    position: relative;
+    left: 630px;
+    bottom: 350px;
+}
+
+#ah3_3{
+    position: relative;
+    bottom: 710px;
+    left: 1020px;
+}
+#ah3_4{
+    position: relative;
+    bottom: 630px;
+    left: 135px;
+}
+#ah3_5{
+    position: relative;
+    bottom: 1000px;
+    left: 615px;
+
+}
+#ah3_6{
+    position: relative;
+    bottom: 1374px;
+    left: 1050px;
+
+}
+
+#ah3_7 {
+    position: relative;
+    bottom: 1315px;
+    left: 130px;
+}
+
+#ah3_8 {
+
+    position: relative;
+    bottom: 1685px;
+    left: 590px;
+
+}
+
+#ah3_9{
+    position: relative;
+    bottom: 2053px;
+    left: 1035px;
+}
+
+#ah3_10{
+    position: relative;
+    bottom: 1995px;
+    left: 115px;
+}
+#ah3_11 {
+    position: relative;
+    bottom: 2363px;
+    left: 585px;
+}
+
+#ah3_12{
+    position: relative;
+    bottom: 2732px;
+    left: 1060px;
+
+}
+#Gallery{
+    background-color:#022A3C;
+    width: 1372px;
+    height: 580px;
+    position: relative;
+    bottom: 2167px;
+}
+
+#img1{
+
+}
+
+.gitClass{
+    width: 70px;
+    height: 50px;
+}
+
+#img2Gallery{
+    width: 400px;
+    position: relative;
+    top: 88px;
+    left: 10px;
+}
+#img3Gallery{
+    width: 400px;
+    /* height: 416px; */
+    position: relative;
+    left: 55px;
+    top: 87px;
+}
+
+#img4Gallery{
+    width: 400px;
+    position: relative;
+    left: 98px;
+    top: 84px;
+
+}
+
+#img6Gallery{
+    width: 400px;
+    position: relative;
+    left: 77px;
+    top: 80px;
+
+}
+
+#img13Gallery{
+    width: 404px;
+    position: relative;
+    left: 120px;
+    top: 85px;
+}
+#img14Gallery{
+    width: 456px;
+    position: relative;
+    left: 137px;
+    bottom: 65px;
+}
+
+#img15Gallery{
+    width: 400px;
+    position: relative;
+    left: 98px;
+    bottom: 65px;
+}
+
+#img7Gallery{
+    width: 301px;
+    position: relative;
+    left: 96px;
+    bottom: -141px;
+    padding: 4px;
+
+}
+
+#img8Gallery{
+
+}
+#img9Gallery{
+    width: 485px;
+    position: relative;
+    left: 175px;
+    bottom: 82px;
+}
+
+#img10Gallery{
+    width: 385px;
+    position: relative;
+    left: 210px;
+    bottom: 65px;
+
+}
+#img11Gallery {
+    width: 360px;
+    position: relative;
+    left: 534px;
+    bottom: 60px;
+
+}
+#img23Gallery{
+    width: 360px;
+    position: relative;
+    left: 592px;
+    bottom: 31px;
+
+}
+#img24Gallery{
+    width: 440px;
+    position: relative;
+    left: -665px;
+    bottom: 2px;
+
+
+}
+.gallery{
+     transition: 1s;
+ }
+
+#img5Gallery{
+    width: 376px;
+    position: relative;
+    left: 20px;
+    top: 103px;
+
+}
+
+#img6Gallery{
+    width: 400px;
+    position: relative;
+    left: 47px;
+    top: 115px;
+}
+
+#img13Gallery{
+    width: 404px;
+    position: relative;
+    left: 98px;
+    top: 110px;
+
+}
+
+#img15Gallery{
+    width: 444px;
+    position: relative;
+    left: 249px;
+    bottom: 65px;
+
+}
+
+#img16Gallery{
+    width: 255px;
+    position: relative;
+    left: 25px;
+    top: 135px;
+
+}
+
+#img17Gallery{
+    width: 306px;
+    position: relative;
+    left: 55px;
+    bottom: 22px;
+}
+
+#img18Gallery {
+    width: 269px;
+    position: relative;
+    left: 100px;
+    bottom: 3px;
+}
+
+#img19Gallery{
+    width: 355px;
+    position: relative;
+    left: 110px;
+    bottom: 61px;
+}
+
+#img7Gallery{
+    width: 301px;
+    position: relative;
+    left: 25px;
+    bottom: -141px;
+}
+
+
+
+#glryNext{
+    /*width: 64px;
+    position: relative;
+    bottom: 1589px;
+    left: -435px;*/
+}
+
+#glryPrevious2{
+
+}
+.gallery:hover{
+    transform: rotate(10deg);
+}
+
+#name{
+    width: 391px;
+    height: 85px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+#E-mail{
+    width: 391px;
+    height: 85px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+#subject{
+    width: 391px;
+    height: 85px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+#massage{
+    width: 391px;
+    height: 85px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+#submit{
+    width: 391px;
+    height: 85px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+#Contact{
+    background-color: #744461;
+    position: relative;
+    bottom: 707px;
+    width: 1117px;
+    left: 170px;
+    height: 543px;
+}
+
+#contactH1Id{
+    color: cornflowerblue;
+    font-size: 50px;
+    position: relative;
+    left: 533px;
+}
+#locationId{
+    width: 100px;
+}
+
+#contactId{
+    width: 100px;
+}
+
+#eMailId{
+    width: 100px;
+    position: relative;
+    bottom: 105px;
+}
+
+#phoneId{
+    width: 113px;
+    position: relative;
+    bottom: 170px;
+    right: 10px;
+}
+.contactClass{
+
+}
+
+#h3CId{
+    position: relative;
+    left: 118px;
+    bottom: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+}
+.form{
+    position: relative;
+    right: 35px;
+}
+
+.p_style{
+    width: 689px;
+    font-size: 27px;
+    background-color: #9882a5;
+    padding: 19px;
+}
+
+#P1{
+    position: relative;
+    left: 508px;
+    bottom: 247px;
+}
+#P2{
+    position: relative;
+    left: 125px;
+    bottom: 580px;
+
+}
+
+#P3{
+    position: relative;
+    bottom: 1133px;
+    left: 425px;
+
+}
+
+#P4{
+    position: relative;
+    bottom: 1445px;
+    left: 260px;
+}
+
+#pCId{
+    position: relative;
+    left: 117px;
+    bottom: 110px;
+    font-weight: bold;
+}
+
+.project:hover{
+    transform: rotate3d(1,1,1,360deg);
+    border: 3px solid red;
+
+}
+
+#h3Class{
+
+}
+
+#h3EId{
+    position: relative;
+    left: 118px;
+    bottom: 181px;
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+}
+.pClass{
+
+}
+
+#pEId{
+    position: relative;
+    left: 11px;
+    bottom: 164px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.h3Class{
+
+}
+
+#h3PId{
+    position: relative;
+    left: 113px;
+    bottom: 278px;
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+}
+
+.pClass{
+
+}
+
+#pPId{
+    position: relative;
+    left: 114px;
+    bottom: 293px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#name {
+    width: 428px;
+    height: 41px;
+    position: relative;
+    top: 12px;
+    left: 104px;
+}
+
+#formId{
+    border: 5px solid black;
+    position: relative;
+    bottom: 748px;
+    width: 732px;
+    height: 438px;
+    left: 316px;
+    border-radius: 24px;
+}
+
+#E-mail {
+    width: 428px;
+    height: 43px;
+    position: relative;
+    top: 50px;
+    left: 103px;
+}
+
+#subject{
+    width: 435px;
+    height: 41px;
+    position: relative;
+    top: 85px;
+    left: 102px;
+
+}
+
+#massage{
+    width: 439px;
+    height: 92px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+
+}
+
+#submit{
+    width: 110px;
+    height: 51px;
+    position: relative;
+    top: 130px;
+    left: 277px;
+    font-color: black;
+    border-radius: 36px;
+    border: 5px solid #749fb3;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*
+media query*/
+
+
+@media all and (max-width: 1440px) and (min-width: 1024px) {
+
+    .profile{
+        background-color: #4c394a;
+        color: white;
+        display: block;
+        font-size: 24px;
+        position: relative;
+        left: 72%;
+        bottom: 905px;
+        width: 49%;
+        text-align: center;
+        font-family: emoji;
+        animation: effect 2s linear infinite;
+        transform: translate(-50%, -50%);
+        text-align: left;
+    }
+
+    .h1Main{
+        color: transparent;
+        animation: effect 2s linear infinite;
+    }
+
+
+    @keyframes effect {
+        0% {
+            background: linear-gradient(
+                    #008000, #00FF00);
+            -webkit-background-clip: text;
+        }
+
+        25% {
+            background: linear-gradient(
+                    #D78520, #00FF00);
+            -webkit-background-clip: text;
+
+        }
+        50% {
+            background: linear-gradient(
+                    #72B851, #00FF00);
+            -webkit-background-clip: text;
+
+        }
+        75% {
+            background: linear-gradient(
+                    #8AD2DA, #00FF00);
+            -webkit-background-clip: text;
+
+        }
+
+        100% {
+            background: linear-gradient(
+                    #3CE7D7, #000FFF);
+            -webkit-background-clip: text;
+        }
+    }
+
+    #typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        font-size: 1.6rem;
+        width: 500px;
+    }
+
+    .container {
+        display: inline-block;
+    }
+
+    @keyframes typing {
+        from { width: 100px}
+        to { width: 50% }
+    }
+
+
+
+
+
+
+    .social{
+        width: 25px;
+    }
+
+    a{
+        word-spacing: 25px;
+        text-decoration: none;
+        padding: 10px;
+        position: relative;
+        top: 20px;
+
+
+    }
+
+
+    .di {
+        width: 23%;
+    }
+
+    .imgClass{
+        height: 387px;
+    }
+
+    /*.imgClass{
+        width: 2800px;
+        height: 387px;
+        position: relative;
+        top: 0px;
+        overflow-x: hidden;
+        bottom: 82px;
+    }*/
+
+    .aboutClass{
+
+    }
+
+
+    #imgId{
+        background-color: #cbb8c8;
+        position: relative;
+        top: -79px;
+        width: 1517px;
+        right: 7px;
+        height: 645px;
+    }
+    #About{
+        background-color: #744461;
+        width: 1080px;
+        height: 495px;
+        position: relative;
+        top: 115px;
+        left: 105px;
+    }
+
+    #glryBody{
+        background-color: #cfbbe4;
+        overflow-x: hidden;
+        /*overflow-y: hidden;*/
+    }
+    #about_body{
+        overflow-x: hidden;
+        background-color: #5a3352;
+        height: 30px;
+        overflow-y: hidden;
+        top: -20px;
+
+    }
+    #about_P{
+        font-family: cursive;
+        font-size: 28px;
+        position: relative;
+        bottom: 835px;
+        left: 568px;
+        color: rgb(204 190 249);
+        word-spacing: 14px;
+
+    }
+
+    .next{
+        width: 55px;
+        position: relative;
+        bottom: 75px;
+        left: 500px;
+    }
+    .previous{
+        width: 64px;
+        position: relative;
+        bottom: 1230px;
+        left: -22px;
+    }
+    #img2{
+        position: relative;
+        bottom: 430px;
+        right: 18px;
+
+    }
+
+    .title{
+        position: relative;
+        left: 481px;
+        top: 20px;
+        color: #000000;
+        font-size: 34px;
+
+    }
+
+    #projectMain{
+
+    }
+
+    #imgAbout{
+        width: 420PX;
+        height: 505PX;
+        position: relative;
+        top: 50px;
+        left: 52px;
+
+        --c: #905ec7; /* the border color */
+        --b: 10px;    /* the border thickness*/
+        --g: 5px;     /* the gap on hover */
+
+        padding: calc(var(--g) + var(--b));
+        --_g: #0000 25%,var(--c) 0;
+        background:
+                conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+                var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+                conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+                0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+        transition: .3s, background-position .3s .3s;
+        cursor: pointer;
+    }
+    img:hover {
+        --_i: 100%;
+        transition: .3s, background-size .3s .3s;
+
+
+
+    }
+
+
+    #about2 {
+        background-color: #93607f;
+        width: 1135px;
+        height: 520px;
+        position: relative;
+        top: 50px;
+        left: 52px;
+
+    }
+
+    #skill{
+        font-size: 8px;
+        color: white;
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+
+
+    #language{
+        background-color: #744461;
+        width: 1372px;
+        height: 550px;
+        position: relative;
+        bottom: 1338px;
+        left: 52px;
+    }
+
+    .square{
+        width: 400px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+
+    }
+
+    .square1{
+        width: 900px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+
+    .square3{
+        width: 900px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+
+    .square4{
+        width: 750px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+    .square5{
+        width: 300px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+    .square6{
+        width: 600px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+
+    .square7{
+        width: 600px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+
+    .square2{
+        width: 1000px;
+        height: 20px;
+        background-color: red;
+        position: relative;
+        left: 10px;
+    }
+
+    #education{
+        background-color: #815b72;
+        width: 1105px;
+        height: 495px;
+        position: relative;
+        bottom: -140px;
+        left: 70px;
+
+    }
+    #education_p{
+        font-size: 23px;
+        color: white;
+        position: relative;
+        left: 244px;
+        bottom: 325px;
+        width: 760px;
+    }
+    .edu_h2{
+        position: relative;
+        left: 400px;
+        top: -97px;
+        color: #210b23;
+        font-size: 38px;
+
+    }
+    #bioData{
+        background-color: #d9b9dd;
+        position: relative;
+        bottom: 435px;
+        left: 970px;
+        width: 145px;
+        height: 60px;
+        border-radius: 250px;
+    }
+
+
+    #next1{
+        width: 55px;
+        position: relative;
+        top: 235px;
+        left: 910px;
+    }
+    #previous2{
+        width: 55px;
+        position: relative;
+        left: 15px;
+        top: 235px;
+    }
+    #previous1{
+        width: 45px;
+        position: relative;
+        left: 35px;
+        bottom: 50px;
+
+    }
+    #Project {
+        background-color: #744461;
+        width: 1372px;
+        position: relative;
+        overflow-y: hidden;
+        top: -30px;
+        overflow-x: hidden;
+
+
+    }
+    #projectDiv0{
+        position: relative;
+        top: 80px;
+    }
+    #previous-project{
+        position: relative;
+        bottom: 1795px;
+        left: 25px;
+    }
+    #project_next{
+        position: relative;
+        bottom: 1030px;
+        left: 1150px;
+        width: 55px;
+
+    }
+
+    #projectDiv{
+        position: relative;
+        top: 1020px;
+    }
+    .project {
+        width: 415px;
+        position: relative;
+        left: 20px;
+        transition: 1s;
+        border-radius: 10px;
+        border: 3px solid #D9D9D9;
+    }
+    #project1{
+
+    }
+    #project2{
+        position: relative;
+        left: 887px;
+        bottom: 340px;
+        width: 300px;
+        height: 237px;
+    }
+    #project3{
+        position: relative;
+        bottom: 885px;
+        left: 14px;
+        height: 231px;
+        width: 360px;
+        transition: 1s;
+        border-radius: 10px;
+        border: 3px solid #D9D9D9;
+
+    }
+    #project4{
+        position: relative;
+        bottom: 1200px;
+        left: 1025px;
+        width: 359px;
+        height: 255px;
+    }
+
+    #project5{
+        position: relative;
+        bottom: 740px;
+        left: 457px;
+        width: 400px;
+        height: 300px;
+
+    }
+    #project6{
+        position: relative;
+        bottom: 740px;
+        left: 457px;
+        width: 400px;
+        height: 300px;
+    }
+
+
+
+    #h3_1{
+        position: relative;
+        bottom: 485px;
+        left: 243px;
+        font-size: 32px;
+    }
+
+    #h3_2{
+        position: relative;
+        left: 1075px;
+        bottom: 840px;
+        font-size: 30px;
+    }
+
+    #h3_3 {
+        position: relative;
+        bottom: 1215px;
+        left: 205px;
+        color: white;
+        font-size: 30px;
+    }
+    #h3_4{
+        position: relative;
+        bottom: 1559px;
+        left: 1233px;
+        font-size: 30px;
+        color: white;
+    }
+    #h3_5{
+        position: relative;
+        bottom: 760px;
+        left: 295px;
+    }
+    #h3_6{
+        position: relative;
+        bottom: 1007px;
+        left: 636px;
+    }
+
+
+    #assignment{
+        overflow-x: hidden;
+        background-color: #85557b;
+        position: relative;
+        top: 74px;
+        overflow-y: hidden;
+        width: 1240px;
+        right: 8px;
+        height: 1509px;
+    }
+    .assignment{
+        width: 335px;
+        height: 270px;
+        position: relative;
+        left: 20px;
+        transition: 1s;
+        border-radius: 10px;
+        border: 3px solid #D9D9D9;
+
+    }
+
+    .assignment:hover{
+        transform: rotate3d(1,1,1,360deg);
+        border: 3px solid red;
+
+    }
+
+    #assignment2{
+        position: relative;
+        top: 20px;
+    }
+
+    #assignment3{
+        position: relative;
+        bottom: 679px;
+        left: 457px;
+        width: 335px;
+        height: 275px;
+
+
+    }
+    #assignment4{
+        position: relative;
+        bottom: 660px;
+        left: 450px;
+        width: 335px;
+        height: 264px;
+
+    }
+
+    #assignment5{
+        position: relative;
+        bottom: 1355px;
+        left: 854px;
+        width: 320px;
+        height: 270px;
+    }
+
+    #assignment6{
+        position: relative;
+        bottom: 1335px;
+        left: 845px;
+    }
+
+    #assignment7 {
+        position: relative;
+        bottom: 1325px;
+        left: 10px;
+
+    }
+
+    #assignment8 {
+        position: relative;
+        bottom: 1660px;
+        left: 450px;
+
+    }
+
+    #assignment9 {
+        position: relative;
+        bottom: 2000px;
+        left: 840px;
+
+    }
+
+    #assignment10 {
+        position: relative;
+        bottom: 2010px;
+        left: 6px;
+
+    }
+    #assignment11 {
+        position: relative;
+        bottom: 2350px;
+        left: 450px;
+
+    }
+
+    #assignment12 {
+        position: relative;
+        bottom: 2695px;
+        left: 840px;
+
+    }
+
+    #ah3_1{
+        position: relative;
+        bottom: -24px;
+        left: 130px;
+
+    }
+
+    #ah3_2 {
+        position: relative;
+        left: 600px;
+        bottom: 320px;
+    }
+
+    #ah3_3{
+        position: relative;
+        bottom: 672px;
+        left: 985px;
+    }
+    #ah3_4{
+        position: relative;
+        bottom: 630px;
+        left: 135px;
+    }
+    #ah3_5{
+        position: relative;
+        bottom: 978px;
+        left: 590px;
+
+    }
+    #ah3_6{
+        position: relative;
+        bottom: 1374px;
+        left: 1050px;
+
+    }
+
+    #ah3_7 {
+        position: relative;
+        bottom: 1315px;
+        left: 130px;
+    }
+
+    #ah3_8 {
+        position: relative;
+        bottom: 1650px;
+        left: 590px;
+
+    }
+
+    #ah3_9{
+        position: relative;
+        bottom: 1995px;
+        left: 985px;
+    }
+
+    #ah3_10{
+        position: relative;
+        bottom: 1995px;
+        left: 115px;
+    }
+    #ah3_11 {
+        position: relative;
+        bottom: 2333px;
+        left: 575px;
+
+    }
+
+    #ah3_12{
+        position: relative;
+        bottom: 2675px;
+        left: 975px;
+
+    }
+    #Gallery{
+        background-color:#022A3C;
+        width: 1372px;
+        height: 580px;
+        position: relative;
+        bottom: 2167px;
+    }
+
+    #img1{
+
+    }
+
+    .gitClass{
+        width: 70px;
+        height: 50px;
+    }
+
+    #img2Gallery{
+        width: 370px;
+        position: relative;
+        top: 88px;
+        left: 10px;
+    }
+    #img3Gallery{
+        width: 370px;
+        /* height: 416px; */
+        position: relative;
+        left: 55px;
+        top: 87px;
+    }
+
+    #img4Gallery{
+        width: 357px;
+        position: relative;
+        left: 98px;
+        top: 84px;
+
+    }
+
+    #img6Gallery{
+        width: 400px;
+        position: relative;
+        left: 77px;
+        top: 80px;
+
+    }
+
+    #img13Gallery{
+        width: 404px;
+        position: relative;
+        left: 120px;
+        top: 85px;
+    }
+    #img14Gallery{
+        width: 456px;
+        position: relative;
+        left: 137px;
+        bottom: 65px;
+    }
+
+    #img15Gallery{
+        width: 400px;
+        position: relative;
+        left: 98px;
+        bottom: 65px;
+    }
+
+    #img7Gallery{
+        width: 301px;
+        position: relative;
+        left: 96px;
+        bottom: -141px;
+        padding: 4px;
+
+    }
+
+    #img8Gallery{
+
+    }
+    #img9Gallery{
+        width: 485px;
+        position: relative;
+        left: 80px;
+        bottom: -100px;
+
+    }
+
+    #img10Gallery{
+        width: 345px;
+        position: relative;
+        left: 100px;
+        bottom: -48px;
+
+    }
+    #img11Gallery {
+        width: 325px;
+        position: relative;
+        left: 445px;
+        bottom: -123px;
+
+    }
+    #img23Gallery{
+        width: 330px;
+        position: relative;
+        left: 524px;
+        bottom: -78px;
+    }
+    #img24Gallery{
+        width: 396px;
+        position: relative;
+        left: -638px;
+        bottom: -60px;
+
+
+    }
+    .gallery{
+        transition: 1s;
+    }
+
+    #glryBody{
+        background-color: #cfbbe4;
+        overflow-x: hidden;
+        /*overflow-y: hidden;*/
+    }
+    #img5Gallery{
+        width: 355px;
+        position: relative;
+        left: 20px;
+        top: 103px;
+
+    }
+
+    #img6Gallery{
+        width: 360px;
+        position: relative;
+        left: 60px;
+        top: 100px;
+    }
+
+    #img13Gallery{
+        width: 370px;
+        position: relative;
+        left: 98px;
+        top: 110px;
+
+    }
+
+    #img15Gallery{
+        width: 444px;
+        position: relative;
+        left: 249px;
+        bottom: 65px;
+
+    }
+
+    #img16Gallery{
+        width: 200px;
+        position: relative;
+        left: 25px;
+        top: 135px;
+
+    }
+
+    #img17Gallery{
+        width: 295px;
+        position: relative;
+        left: 55px;
+        bottom: -89px;
+
+    }
+
+    #img18Gallery {
+        width: 260px;
+        position: relative;
+        left: 85px;
+        bottom: -120px;
+    }
+
+    #img19Gallery{
+        width: 330px;
+        position: relative;
+        left: 110px;
+        bottom: -56px;
+    }
+
+    #img7Gallery{
+        width: 260px;
+        position: relative;
+        left: 25px;
+        bottom: -141px;
+
+    }
+
+
+
+    #glryNext{
+        /*width: 64px;
+        position: relative;
+        bottom: 1589px;
+        left: -435px;*/
+    }
+
+    #glryPrevious2{
+
+    }
+    .gallery:hover{
+        transform: rotate(10deg);
+    }
+
+    #name{
+        width: 391px;
+        height: 85px;
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+
+    #E-mail{
+        width: 80px;
+        position: relative;
+        bottom: 105px;
+    }
+
+    #subject{
+        width: 391px;
+        height: 85px;
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+
+    #massage{
+        width: 391px;
+        height: 85px;
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+
+    #submit{
+        width: 391px;
+        height: 85px;
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+
+    #Contact{
+        background-color: #744461;
+        position: relative;
+        bottom: 705px;
+        width: 925px;
+        left: 130px;
+        height: 505px;
+    }
+
+    #contactH1Id{
+        color: #d0b2df;
+        font-size: 40px;
+        position: relative;
+        left: 361px;
+        font-style: italic;
+    }
+    #locationId{
+        width: 80px;
+    }
+
+    #contactId{
+        width: 100px;
+        position: relative;
+        bottom: 15px;
+        left: 10px;
+    }
+
+    #eMailId{
+        width: 100px;
+        position: relative;
+        bottom: 105px;
+    }
+
+    #phoneId{
+        width: 90px;
+        position: relative;
+        bottom: 185px;
+        right: 10px;
+    }
+    .contactClass{
+
+    }
+
+    #h3CId{
+        position: relative;
+        left: 118px;
+        bottom: 100px;
+        font-weight: bold;
+        color: white;
+        font-size: 26px;
+    }
+    .form{
+        position: relative;
+        right: 35px;
+    }
+
+    .p_style{
+        width: 689px;
+        font-size: 27px;
+        background-color: #9882a5;
+        padding: 19px;
+    }
+
+    #P1{
+        position: relative;
+        left: 460px;
+        bottom: 247px;
+        width: 605px;
+    }
+    #P2{
+        position: relative;
+        left: 155px;
+        bottom: 580px;
+
+    }
+
+    #P3{
+        position: relative;
+        bottom: 1133px;
+        left: 425px;
+
+    }
+
+    #P4{
+        position: relative;
+        bottom: 1445px;
+        left: 260px;
+    }
+
+    #pCId{
+        position: relative;
+        left: 117px;
+        bottom: 110px;
+        font-weight: bold;
+    }
+
+    .project:hover{
+        transform: rotate3d(1,1,1,360deg);
+        border: 3px solid red;
+
+    }
+
+    #h3Class{
+
+    }
+
+    #h3EId{
+        position: relative;
+        left: 118px;
+        bottom: 181px;
+        font-weight: bold;
+        color: white;
+        font-size: 26px;
+    }
+    .pClass{
+
+    }
+
+    #pEId{
+        position: relative;
+        left: 11px;
+        bottom: 164px;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .h3Class{
+
+    }
+
+    #h3PId{
+        position: relative;
+        left: 113px;
+        bottom: 278px;
+        font-weight: bold;
+        color: white;
+        font-size: 26px;
+    }
+
+    .pClass{
+
+    }
+
+    #pPId{
+        position: relative;
+        left: 114px;
+        bottom: 293px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #name {
+        width: 428px;
+        height: 41px;
+        position: relative;
+        top: 12px;
+        left: 104px;
+    }
+
+    #formId{
+        border: 5px solid black;
+        position: relative;
+        bottom: 715px;
+        width: 580px;
+        height: 438px;
+        left: 300px;
+        border-radius: 24px;
+    }
+
+    #E-mail {
+        width: 428px;
+        height: 43px;
+        position: relative;
+        top: 50px;
+        left: 103px;
+    }
+
+    #subject{
+        width: 435px;
+        height: 41px;
+        position: relative;
+        top: 85px;
+        left: 102px;
+
+    }
+
+    #massage{
+        width: 439px;
+        height: 92px;
+        position: relative;
+        top: 120px;
+        left: 100px;
+
+    }
+
+    #submit{
+        width: 110px;
+        height: 51px;
+        position: relative;
+        top: 130px;
+        left: 277px;
+        font-color: black;
+        border-radius: 36px;
+        border: 5px solid #749fb3;
+        color: #000000;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+}
+    @media all and (max-width: 1024px) and (min-width: 768px) {
+        .header{
+            position: relative;
+            bottom: 7px;
+            right: 8px;
+
+        }
+        body{
+
+
+        }
+        .contactBody{
+            overflow-x: hidden;
+            background-color: #5a3352;
+            position: relative;
+            top: 155px;
+            overflow-y: hidden;
+        }
+        .nav {
+            background: #D9D9D9;
+            padding: 8px 20px;
+            margin: 1px;
+            font-size: 17px;
+            color: black;
+            width: 100%;
+            height: 65px;
+            z-index: 1;
+            word-spacing: -5px;
+            position: fixed;
+            top: 0px;
+
+        }
+        .social{
+            width: 25px;
+        }
+        a{
+            word-spacing: 25px;
+            text-decoration: none;
+            padding: 10px;
+            position: relative;
+            top: 20px;
+
+        }
+        .icon{
+            margin-left: 30%;
+            position: relative;
+            left: 380px;
+            bottom: 20px;
+        }
+        #dini{
+            position: relative;
+            top: 2px;
+            width: 325px;
+            height: 325px;
+            left: 25px;
+            border-radius: 421px;
+
+        }
+        .diniClass{
+            width: 370px;
+            height: 327px;
+            position: relative;
+            bottom: 610px;
+            right: 250px;
+            border-radius: 499px;
+
+        // circle color change
+
+        height: 200px;
+
+            background-color: #7182EA;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            animation: animationColors 10s ease-in-out 1s, ease-in 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animationColors {
+            0% {
+                background: #7182EA;
+            }
+            25% {
+                background: #D78520;
+            }
+            50% {
+                background: #72B851;
+            }
+            75% {
+                background: #8AD2DA;
+            }
+            100% {
+                background: #CFBBE4;
+            }
+        }
+        .di {
+            width: 23%;
+        }
+
+        .profile{
+            background-color: #4c394a;
+            color: white;
+            display: block;
+            font-size: 21px;
+            position: relative;
+            left: 72%;
+            bottom: 805px;
+            width: 49%;
+            font-family: emoji;
+            animation: effect 2s linear infinite;
+            transform: translate(-50%, -50%);
+            text-align: left;
+        }
+
+        .h1Main{
+            color: transparent;
+            animation: effect 2s linear infinite;
+        }
+
+
+        @keyframes effect {
+            0% {
+                background: linear-gradient(
+                        #008000, #00FF00);
+                -webkit-background-clip: text;
+            }
+
+            25% {
+                background: linear-gradient(
+                        #D78520, #00FF00);
+                -webkit-background-clip: text;
+
+            }
+            50% {
+                background: linear-gradient(
+                        #72B851, #00FF00);
+                -webkit-background-clip: text;
+
+            }
+            75% {
+                background: linear-gradient(
+                        #8AD2DA, #00FF00);
+                -webkit-background-clip: text;
+
+            }
+
+            100% {
+                background: linear-gradient(
+                        #3CE7D7, #000FFF);
+                -webkit-background-clip: text;
+            }
+        }
+
+        #typed-out{
+            overflow: hidden;
+            border-right: .15em solid orange;
+            font-size: 1.6rem;
+            width: 500px;
+        }
+
+        .container {
+            display: inline-block;
+        }
+
+        @keyframes typing {
+            from { width: 100px}
+            to { width: 50% }
+        }
+
+
+
+
+
+
+        .social{
+            width: 25px;
+        }
+
+        a{
+            word-spacing: 25px;
+            text-decoration: none;
+            padding: 10px;
+            position: relative;
+            top: 20px;
+
+
+        }
+
+
+        .di {
+            width: 23%;
+        }
+
+        .imgClass{
+            height: 387px;
+        }
+
+        /*.imgClass{
+            width: 2800px;
+            height: 387px;
+            position: relative;
+            top: 0px;
+            overflow-x: hidden;
+            bottom: 82px;
+        }*/
+
+        .aboutClass{
+
+        }
+
+
+        #imgId{
+            background-color: #cbb8c8;
+            position: relative;
+            top: -79px;
+            width: 1517px;
+            right: 7px;
+            height: 645px;
+        }
+        #About{
+            background-color: #744461;
+            width: 787px;
+            height: 480px;
+            position: relative;
+            top: 115px;
+            left: 70px;
+        }
+
+        #glryBody{
+            background-color: #cfbbe4;
+            overflow-x: hidden;
+            /*overflow-y: hidden;*/
+        }
+        #about_body{
+            overflow-x: hidden;
+            background-color: #5a3352;
+            height: 30px;
+            overflow-y: hidden;
+            top: -20px;
+
+        }
+        #about_P{
+            font-family: cursive;
+            font-size: 23px;
+            position: relative;
+            bottom: 724px;
+            left: 445px;
+            color: rgb(204 190 249);
+            word-spacing: 14px;
+
+        }
+
+        .next {
+            width: 55px;
+            position: relative;
+            bottom: 235px;
+            left: 365px;
+        }
+        .previous{
+            width: 64px;
+            position: relative;
+            bottom: 1230px;
+            left: -22px;
+        }
+        #img2{
+            position: relative;
+            bottom: 430px;
+            right: 18px;
+
+        }
+
+        .title{
+            position: relative;
+            left: 365px;
+            top: 20px;
+            color: #000000;
+            font-size: 32px;
+
+        }
+
+        #projectMain{
+
+        }
+
+        #imgAbout{
+            width: 388PX;
+            height: 425PX;
+            position: relative;
+            top: 130px;
+            left: 35px;
+
+            --c: #905ec7; /* the border color */
+            --b: 10px;    /* the border thickness*/
+            --g: 5px;     /* the gap on hover */
+
+            padding: calc(var(--g) + var(--b));
+            --_g: #0000 25%,var(--c) 0;
+            background:
+                    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+                    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+                    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+                    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+            transition: .3s, background-position .3s .3s;
+            cursor: pointer;
+        }
+        img:hover {
+            --_i: 100%;
+            transition: .3s, background-size .3s .3s;
+
+
+
+        }
+
+
+        #about2 {
+            background-color: #93607f;
+            width: 800px;
+            height: 520px;
+            position: relative;
+            top: 50px;
+            left: 52px;
+
+        }
+
+        #skill{
+            font-size: 12px;
+            color: white;
+            position: relative;
+            top: 8px;
+            left: 110px;
+        }
+
+
+        #language{
+            background-color: #744461;
+            width: 1372px;
+            height: 550px;
+            position: relative;
+            bottom: 1338px;
+            left: 52px;
+        }
+
+        .square{
+            width: 610px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+
+        }
+
+        .square1{
+            width: 900px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+            top: -20px;
+        }
+
+        .square3{
+            width: 900px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+            top: -20px;
+        }
+
+        .square4{
+            width: 750px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+            top: -20px;
+        }
+        .square5{
+            width: 300px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+            top: -20px;
+        }
+        .square6{
+            width: 600px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+            top: -20px;
+        }
+
+        .square7{
+            width: 600px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+            top: -20px;
+        }
+
+        .square2{
+            width: 1000px;
+            height: 20px;
+            background-color: red;
+            position: relative;
+            left: 10px;
+        }
+
+        #education{
+            background-color: #815b72;
+            width: 775px;
+            height: 495px;
+            position: relative;
+            bottom: -140px;
+            left: 70px;
+
+        }
+        #education_p{
+            font-size: 21px;
+            color: white;
+            position: relative;
+            left: 80px;
+            bottom: 305px;
+            width: 760px
+        }
+        .edu_h2{
+            position: relative;
+            left: 325px;
+            top: -75px;
+            color: #210b23;
+            font-size: 30px;
+
+        }
+        #bioData{
+            background-color: #5b515d;
+            position: relative;
+            bottom: 422px;
+            left: 610px;
+            height: 54px;
+            border-radius: 250px
+        }
+
+
+        #next1{
+            width: 50px;
+            position: relative;
+            top: 230px;
+            left: 697px;
+        }
+        #previous2{
+            width: 50px;
+            position: relative;
+            left: -75px;
+            top: 235px;
+
+        }
+        #previous1{
+            width: 50px;
+            position: relative;
+            left: -12px;
+            bottom: 225px;
+
+        }
+        #Project {
+            background-color: #744461;
+            width: 1372px;
+            position: relative;
+            overflow-y: hidden;
+            top: -30px;
+            overflow-x: hidden;
+
+
+        }
+        #projectDiv0{
+            position: relative;
+            top: 80px;
+        }
+        #previous-project{
+            position: relative;
+            bottom: 1695px;
+            left: 1px;
+        }
+        #project_next{
+            position: relative;
+            bottom: 815px;
+            left: 885px;
+            width: 50px;
+        }
+
+        #projectDiv{
+            position: relative;
+            top: 1020px;
+        }
+        .project {
+            width: 295px;
+            position: relative;
+            left: 20px;
+            transition: 1s;
+            border-radius: 10px;
+            border: 3px solid #D9D9D9;
+        }
+        #project1{
+
+        }
+        #project2{
+            position: relative;
+            left: 568px;
+            bottom: 250px;
+            width: 300px;
+            height: 237px;
+        }
+        #project3{
+            position: relative;
+            bottom: 885px;
+            left: 14px;
+            height: 231px;
+            width: 360px;
+            transition: 1s;
+            border-radius: 10px;
+            border: 3px solid #D9D9D9;
+
+        }
+        #project4{
+            position: relative;
+            bottom: 1160px;
+            left: 545px;
+            width: 359px;
+            height: 255px;
+        }
+
+        #project5{
+            position: relative;
+            bottom: 740px;
+            left: 457px;
+            width: 400px;
+            height: 300px;
+
+        }
+        #project6{
+            position: relative;
+            bottom: 740px;
+            left: 457px;
+            width: 400px;
+            height: 300px;
+        }
+
+        #h3_1{
+            position: relative;
+            bottom: 485px;
+            left: 243px;
+            font-size: 32px;
+        }
+
+        #h3_2{
+            position: relative;
+            left: 1075px;
+            bottom: 840px;
+            font-size: 30px;
+        }
+
+        #h3_3 {
+            position: relative;
+            bottom: 1215px;
+            left: 205px;
+            color: white;
+            font-size: 30px;
+        }
+        #h3_4{
+            position: relative;
+            bottom: 1559px;
+            left: 1233px;
+            font-size: 30px;
+            color: white;
+        }
+        #h3_5{
+            position: relative;
+            bottom: 760px;
+            left: 295px;
+        }
+        #h3_6{
+            position: relative;
+            bottom: 1007px;
+            left: 636px;
+        }
+
+
+        #assignment{
+            overflow-x: hidden;
+            background-color: #85557b;
+            position: relative;
+            top: 74px;
+            overflow-y: hidden;
+            width: 948px;
+            right: 8px;
+            height: 1175px;
+        }
+        .assignment{
+            width: 255px;
+            height: 200px;
+            position: relative;
+            left: 20px;
+            transition: 1s;
+            border-radius: 10px;
+            border: 3px solid #D9D9D9;
+
+        }
+
+        .assignment:hover{
+            transform: rotate3d(1,1,1,360deg);
+            border: 3px solid red;
+
+        }
+
+        #assignment2{
+            position: relative;
+            top: 20px;
+        }
+
+        #assignment3{
+            position: relative;
+            bottom: 541px;
+            left: 343px;
+            width: 261px;
+            height: 205px;
+        }
+        #assignment4{
+            position: relative;
+            bottom: 525px;
+            left: 345px;
+            width: 232px;
+            height: 207px;
+        }
+
+        #assignment5{
+            position: relative;
+            bottom: 1095px;
+            left: 645px;
+            width: 259px;
+            height: 205px;
+        }
+
+        #assignment6{
+            position: relative;
+            bottom: 1075px;
+            left: 638px;
+        }
+
+        #assignment7 {
+            position: relative;
+            bottom: 1083px;
+            left: 10px;
+
+        }
+
+        #assignment8 {
+            position: relative;
+            bottom: 1353px;
+            left: 350px;
+
+        }
+
+        #assignment9 {
+            position: relative;
+            bottom: 1625px;
+            left: 640px;
+
+        }
+
+        #assignment10 {
+            position: relative;
+            bottom: 1615px;
+            left: 6px;
+
+        }
+        #assignment11 {
+            position: relative;
+            bottom: 1890px;
+            left: 350px;
+
+        }
+
+        #assignment12 {
+            position: relative;
+            bottom: 2160px;
+            left: 640px;
+
+        }
+
+        #ah3_1{
+            position: relative;
+            bottom: -24px;
+            left: 90px;
+
+        }
+
+        #ah3_2 {
+            position: relative;
+            left: 415px;
+            bottom: 250px;
+        }
+
+        #ah3_3{
+            position: relative;
+            bottom: 525px;
+            left: 710px;
+        }
+        #ah3_4{
+            position: relative;
+            bottom: 520px;
+            left: 90px;
+        }
+        #ah3_5{
+            position: relative;
+            bottom: 793px;
+            left: 430px;
+
+        }
+        #ah3_6{
+            position: relative;
+            bottom: 1062px;
+            left: 730px;
+
+        }
+
+        #ah3_7 {
+            position: relative;
+            bottom: 1070px;
+            left: 90px;
+        }
+
+        #ah3_8 {
+            position: relative;
+            bottom: 1344px;
+            left: 440px;
+
+        }
+
+        #ah3_9{
+            position: relative;
+            bottom: 1612px;
+            left: 725px;
+        }
+
+        #ah3_10{
+            position: relative;
+            bottom: 1600px;
+            left: 80px;
+        }
+        #ah3_11 {
+            position: relative;
+            bottom: 1875px;
+            left: 438px;
+
+        }
+
+        #ah3_12{
+            position: relative;
+            bottom: 2145px;
+            left: 710px;
+
+        }
+        #Gallery{
+            background-color:#022A3C;
+            width: 1372px;
+            height: 580px;
+            position: relative;
+            bottom: 2167px;
+        }
+
+        #img1{
+
+        }
+
+        .gitClass{
+            width: 70px;
+            height: 50px;
+        }
+
+        #img2Gallery{
+            width: 370px;
+            position: relative;
+            top: 88px;
+            left: 10px;
+        }
+        #img3Gallery{
+            width: 370px;
+            /* height: 416px; */
+            position: relative;
+            left: 55px;
+            top: 87px;
+        }
+
+        #img4Gallery{
+            width: 357px;
+            position: relative;
+            left: 20px;
+            top: 100px;
+
+        }
+
+        #img6Gallery{
+            width: 360px;
+            position: relative;
+            left: 14px;
+            top: 120px;
+
+        }
+
+        #img13Gallery{
+            width: 370px;
+            position: relative;
+            left: 57px;
+            top: 128px;
+        }
+        #img14Gallery{
+            width: 456px;
+            position: relative;
+            left: 137px;
+            bottom: 65px;
+        }
+
+        #img15Gallery{
+            width: 400px;
+            position: relative;
+            left: 98px;
+            bottom: 65px;
+        }
+
+        #img7Gallery{
+            width: 301px;
+            position: relative;
+            left: 145px;
+            bottom: -141px;
+            padding: 4px;
+
+        }
+
+        #img8Gallery{
+
+        }
+        #img9Gallery{
+            width: 436px;
+            position: relative;
+            left: 17px;
+            bottom: 48px;
+
+        }
+
+        #img10Gallery{
+            width: 330px;
+            position: relative;
+            left: 66px;
+            bottom: -169px;
+
+        }
+        #img11Gallery {
+            width: 325px;
+            position: relative;
+            left: 88px;
+            bottom: 25px;
+
+        }
+        #img23Gallery{
+            width: 331px;
+            position: relative;
+            left: 159px;
+            bottom: -222px;
+        }
+        #img24Gallery{
+            width: 396px;
+            position: relative;
+            left: -638px;
+            bottom: -60px;
+
+
+        }
+        .gallery{
+            transition: 1s;
+        }
+
+        #glryBody{
+            background-color: #cfbbe4;
+            overflow-x: hidden;
+            /*overflow-y: hidden;*/
+        }
+        #img5Gallery{
+            width: 355px;
+            position: relative;
+            left: 20px;
+            top: 103px;
+
+        }
+
+        #img6Gallery{
+            width: 360px;
+            position: relative;
+            left: 60px;
+            top: 100px;
+        }
+
+        #img13Gallery{
+            width: 370px;
+            position: relative;
+            left: 98px;
+            top: 110px;
+
+        }
+
+        #img15Gallery{
+            width: 444px;
+            position: relative;
+            left: 249px;
+            bottom: 65px;
+
+        }
+
+        #img16Gallery{
+            width: 200px;
+            position: relative;
+            left: 25px;
+            top: 135px;
+
+        }
+
+        #img17Gallery{
+            width: 295px;
+            position: relative;
+            left: 55px;
+            bottom: -89px;
+
+        }
+
+        #img18Gallery {
+            width: 260px;
+            position: relative;
+            left: 85px;
+            bottom: -120px;
+        }
+
+        #img19Gallery{
+            width: 330px;
+            position: relative;
+            left: 110px;
+            bottom: -56px;
+        }
+
+        #img7Gallery{
+            width: 260px;
+            position: relative;
+            left: 25px;
+            bottom: -141px;
+
+        }
+
+
+
+        #glryNext{
+            /*width: 64px;
+            position: relative;
+            bottom: 1589px;
+            left: -435px;*/
+        }
+
+        #glryPrevious2{
+
+        }
+        .gallery:hover{
+            transform: rotate(10deg);
+        }
+
+        #name{
+            width: 391px;
+            height: 85px;
+            position: relative;
+            top: 8px;
+            left: 10px;
+        }
+
+        #E-mail{
+            width: 80px;
+            position: relative;
+            bottom: 105px;
+        }
+
+        #subject{
+            width: 391px;
+            height: 85px;
+            position: relative;
+            top: 8px;
+            left: 10px;
+        }
+
+        #massage{
+            width: 391px;
+            height: 85px;
+            position: relative;
+            top: 8px;
+            left: 10px;
+        }
+
+        #submit{
+            width: 391px;
+            height: 85px;
+            position: relative;
+            top: 8px;
+            left: 10px;
+        }
+
+        #Contact{
+            background-color: #744461;
+            position: relative;
+            bottom: 705px;
+            width: 925px;
+            left: 15px;
+            height: 505px;
+        }
+
+        #contactH1Id{
+            color: #d0b2df;
+            font-size: 40px;
+            position: relative;
+            left: 361px;
+            font-style: italic;
+        }
+        #locationId{
+            width: 80px;
+        }
+
+        #contactId{
+            width: 100px;
+            position: relative;
+            bottom: 15px;
+            left: 10px;
+        }
+
+        #eMailId{
+            width: 100px;
+            position: relative;
+            bottom: 105px;
+        }
+
+        #phoneId{
+            width: 90px;
+            position: relative;
+            bottom: 185px;
+            right: 10px;
+        }
+        .contactClass{
+
+        }
+
+        #h3CId{
+            position: relative;
+            left: 118px;
+            bottom: 100px;
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+        }
+        .form{
+            position: relative;
+            right: 35px;
+        }
+
+        .p_style{
+            font-size: 18px;
+            background-color: #9882a5;
+            padding: 19px;
+        }
+
+        #P1{
+            position: relative;
+            left: 350px;
+            bottom: 170px;
+            width: 500px;
+        }
+        #P2{
+            position: relative;
+            left: 30px;
+            bottom: 457px;
+            width: 500px;
+
+        }
+
+        #P3{
+            position: relative;
+            bottom: 1095px;
+            left: 398px;
+            width: 490px;
+
+        }
+
+        #P4{
+            position: relative;
+            bottom: 1345px;
+            left: 29px;
+            width: 480px;
+        }
+
+        #pCId{
+            position: relative;
+            left: 117px;
+            bottom: 110px;
+            font-weight: bold;
+        }
+
+        .project:hover{
+            transform: rotate3d(1,1,1,360deg);
+            border: 3px solid red;
+
+        }
+
+        #h3Class{
+
+        }
+
+        #h3EId{
+            position: relative;
+            left: 118px;
+            bottom: 181px;
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+        }
+        .pClass{
+
+        }
+
+        #pEId{
+            position: relative;
+            left: 11px;
+            bottom: 164px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        .h3Class{
+
+        }
+
+        #h3PId{
+            position: relative;
+            left: 113px;
+            bottom: 278px;
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+        }
+
+        .pClass{
+
+        }
+
+        #pPId{
+            position: relative;
+            left: 114px;
+            bottom: 293px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #name {
+            width: 428px;
+            height: 41px;
+            position: relative;
+            top: 12px;
+            left: 104px;
+        }
+
+        #formId{
+            border: 5px solid black;
+            position: relative;
+            bottom: 715px;
+            width: 580px;
+            height: 438px;
+            left: 300px;
+            border-radius: 24px;
+        }
+
+        #E-mail {
+            width: 428px;
+            height: 43px;
+            position: relative;
+            top: 50px;
+            left: 103px;
+        }
+
+        #subject{
+            width: 435px;
+            height: 41px;
+            position: relative;
+            top: 85px;
+            left: 102px;
+
+        }
+
+        #massage{
+            width: 439px;
+            height: 92px;
+            position: relative;
+            top: 120px;
+            left: 100px;
+
+        }
+
+        #submit{
+            width: 110px;
+            height: 51px;
+            position: relative;
+            top: 130px;
+            left: 277px;
+            font-color: black;
+            border-radius: 36px;
+            border: 5px solid #749fb3;
+            color: #000000;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+    }
+
+
+@media all and (max-width: 767px) {
+         a {
+             color: deeppink;
+         }
+
+    .header{
+        position: relative;
+        bottom: 7px;
+        right: 8px;
+
+    }
+    body{
+
+
+    }
+    .contactBody{
+        overflow-x: hidden;
+        background-color: #5a3352;
+        position: relative;
+        top: 155px;
+        overflow-y: hidden;
+    }
+    .nav {
+        background: #D9D9D9;
+        padding: 15px 20px;
+        margin: 1px;
+        font-size: 14px;
+        color: black;
+        width: 100%;
+        height: 65px;
+        z-index: 1;
+        word-spacing: -3px;
+        position: fixed;
+        top: -1px;
+
+
+    }
+    .social{
+        width: 25px;
+    }
+    a{
+        word-spacing: 25px;
+        text-decoration: none;
+        padding: 10px;
+        position: relative;
+        top: 20px;
+
+    }
+    .icon{
+        margin-left: 30%;
+        position: relative;
+        left: 117px;
+        bottom: -15px;
+    }
+    #dini{
+        position: relative;
+        top: 11px;
+        width: 225px;
+        height: 230px;
+        left: 12px;
+        border-radius: 421px;
+
+    }
+    .diniClass{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        bottom: 695px;
+        right: 45px;
+        border-radius: 499px;
+
+    // circle color change
+
+    height: 200px;
+
+        background-color: #7182EA;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        animation: animationColors 10s ease-in-out 1s, ease-in 1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes animationColors {
+        0% {
+            background: #7182EA;
+        }
+        25% {
+            background: #D78520;
+        }
+        50% {
+            background: #72B851;
+        }
+        75% {
+            background: #8AD2DA;
+        }
+        100% {
+            background: #CFBBE4;
+        }
+    }
+    .di {
+        width: 23%;
+    }
+
+        .profile{
+            background-color: #4c394a;
+            color: white;
+            display: block;
+            font-size: 14px;
+            position: relative;
+            left: 56%;
+            bottom: 610px;
+            width: 107%;
+            font-family: emoji;
+            animation: effect 2s linear infinite;
+            transform: translate(-50%, -50%);
+            text-align: left;
+        }
+
+        .h1Main{
+            color: transparent;
+            animation: effect 2s linear infinite;
+        }
+
+
+        @keyframes effect {
+            0% {
+                background: linear-gradient(
+                        #008000, #00FF00);
+                -webkit-background-clip: text;
+            }
+
+            25% {
+                background: linear-gradient(
+                        #D78520, #00FF00);
+                -webkit-background-clip: text;
+
+            }
+            50% {
+                background: linear-gradient(
+                        #72B851, #00FF00);
+                -webkit-background-clip: text;
+
+            }
+            75% {
+                background: linear-gradient(
+                        #8AD2DA, #00FF00);
+                -webkit-background-clip: text;
+
+            }
+
+            100% {
+                background: linear-gradient(
+                        #3CE7D7, #000FFF);
+                -webkit-background-clip: text;
+            }
+        }
+
+        #typed-out{
+            overflow: hidden;
+            border-right: .15em solid orange;
+            font-size: 1.6rem;
+            width: 500px;
+        }
+
+        .container {
+            display: inline-block;
+        }
+
+        @keyframes typing {
+            from { width: 100px}
+            to { width: 50% }
+        }
+
+
+
+
+
+
+        .social{
+            width: 25px;
+        }
+
+        a{
+            word-spacing: 25px;
+            text-decoration: none;
+            padding: 10px;
+            position: relative;
+            top: 20px;
+
+
+        }
+
+
+        .di {
+            width: 23%;
+        }
+
+        .imgClass{
+            height: 387px;
+        }
+
+        .imgClass{
+            width: 2800px;
+            height: 387px;
+            position: relative;
+            top: 0px;
+            overflow-x: hidden;
+            bottom: 82px;
+        }
+
+        .aboutClass{
+
+        }
+
+
+        #imgId{
+            background-color: #cbb8c8;
+            position: relative;
+            top: -79px;
+            width: 1517px;
+            right: 7px;
+            height: 645px;
+        }
+        #About{
+            background-color: #744461;
+            width: 484px;
+            height: 556px;
+            position: relative;
+            top: 100px;
+            left: 30px;
+        }
+
+        #about_body{
+            overflow-x: hidden;
+            background-color: #5a3352;
+            height: 30px;
+            overflow-y: hidden;
+            top: -20px;
+
+        }
+        #about_P{
+            font-family: cursive;
+            font-size: 22px;
+            position: relative;
+            bottom: 450px;
+            left: 50px;
+            color: rgb(204 190 249);
+            word-spacing: 14px;
+
+        }
+
+        .next{
+            width: 40px;
+            position: relative;
+            bottom: 100px;
+            left: 380px;
+        }
+        .previous{
+            width: 64px;
+            position: relative;
+            bottom: 1230px;
+            left: -22px;
+        }
+        #img2{
+            position: relative;
+            bottom: 430px;
+            right: 18px;
+
+        }
+
+        .title{
+            position: relative;
+            left: 180px;
+            top: 35px;
+            color: #000000;
+            font-size: 25px;
+
+        }
+
+        #aboutTitle{
+                top: 10px;
+        }
+
+        #projectMain{
+
+        }
+
+        #imgAbout{
+            width: 200PX;
+            height: 235PX;
+            position: relative;
+            top: 10px;
+            left: 140px;
+
+            --c: #905ec7;
+            --b: 10px;
+            --g: 5px;
+
+            padding: calc(var(--g) + var(--b));
+            --_g: #0000 25%,var(--c) 0;
+            background:
+                    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+                    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+                    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+                    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+            transition: .3s, background-position .3s .3s;
+            cursor: pointer;
+        }
+        img:hover {
+            --_i: 100%;
+            transition: .3s, background-size .3s .3s;
+
+
+
+        }
+
+
+        #about2 {
+            background-color: #93607f;
+            width: 1135px;
+            height: 520px;
+            position: relative;
+            top: 50px;
+            left: 52px;
+
+        }
+
+        #skill{
+            font-size: 10px;
+            color: white;
+            position: relative;
+            top: 8px;
+            left: 110px;
+        }
+
+
+        #language{
+            background-color: #744461;
+            width: 1372px;
+            height: 550px;
+            position: relative;
+            bottom: 1338px;
+            left: 52px;
+        }
+
+        .square{
+            width: 845px;
+            height: 20px;
+            background-color: white;
+            position: relative;
+            left: 10px;
+
+        }
+
+    .square1{
+        width: 270px;
+        height: 20px;
+        background-color: #b12b2b;
+        position: relative;
+        left: 10px;
+        top: -20px;
+
+    }
+
+    .square3{
+        width: 268px;
+        height: 20px;
+        background-color: #b12b2b;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+
+    .square4{
+        width: 200px;
+        height: 20px;
+        background-color: #b12b2b;
+        position: relative;
+        left: 10px;
+        top: -20px;
+
+    }
+    .square5{
+        width: 85px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+    .square6{
+        width: 185px;
+        height: 20px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+
+    .square7{
+        width: 185px;
+        height: 20px;
+        background-color: #b12b2b;
+        position: relative;
+        left: 10px;
+        top: -20px;
+
+    }
+
+    .square2{
+        width: 325px;
+        height: 20px;
+        background-color: #ffffff;
+        position: relative;
+        left: 10px;
+    }
+        #education{
+            background-color: #815b72;
+            width: 508px;
+            height: 530px;
+            position: relative;
+            bottom: -132px;
+            left: 15px;
+
+        }
+        #education_p{
+            font-size: 16px;
+            color: white;
+            position: relative;
+            left: 31px;
+            bottom: 325px;
+            width: 760px;
+        }
+        .edu_h2{
+            position: relative;
+            left: 185px;
+            top: -65px;
+            color: #210b23;
+            font-size: 30px;
+
+        }
+        #bioData{
+            background-color: #d9b9dd;
+            position: relative;
+            bottom: 340px;
+            left: 185px;
+            width: 145px;
+            height: 60px;
+            border-radius: 250px;
+        }
+
+
+        #next1{
+            width: 45px;
+            position: relative;
+            top: 400px;
+            left: 380px;
+        }
+        #previous2{
+            width: 45px;
+            position: relative;
+            left: -5px;
+            top: 400px;
+        }
+        #previous1{
+            width: 55px;
+            position: relative;
+            left: 57px;
+            bottom: 225px;
+
+        }
+        #Project {
+            background-color: #744461;
+            width: 1372px;
+            position: relative;
+            overflow-y: hidden;
+            top: -30px;
+            overflow-x: hidden;
+
+
+        }
+        #projectDiv0{
+            position: relative;
+            top: 80px;
+        }
+        #previous-project{
+            position: relative;
+            bottom: 1445px;
+            left: 10px;
+        }
+        #project_next{
+            position: relative;
+            bottom: 510px;
+            left: 450px;
+            width: 45px;
+        }
+
+        #projectDiv{
+            position: relative;
+            top: 1020px;
+        }
+        .project {
+            width: 240px;
+            position: relative;
+            left: -8px;
+            transition: 1s;
+            border-radius: 10px;
+            border: 3px solid #D9D9D9;
+            /*top: 14px;*/
+            height: 210px;
+        }
+        #project1{
+
+        }
+        #project2{
+             position: relative;
+            left: 309px;
+            width: 215px;
+            height: 185px;
+            top: -243px;
+        }
+        #project3{
+            position: relative;
+            bottom: 885px;
+            left: 14px;
+            height: 190px;
+            width: 225px;
+            transition: 1s;
+            border-radius: 10px;
+            border: 3px solid #D9D9D9;
+
+        }
+        #project4{
+            position: relative;
+            bottom: 1155px;
+            left: 270px;
+            width: 255px;
+            height: 180px;
+        }
+
+        #project5{
+            position: relative;
+            bottom: 740px;
+            left: 457px;
+            width: 400px;
+            height: 300px;
+
+        }
+        #project6{
+            position: relative;
+            bottom: 740px;
+            left: 457px;
+            width: 400px;
+            height: 300px;
+        }
+
+        #h3_1{
+            position: relative;
+            bottom: 365px;
+            left: 122px;
+            font-size: 20px;
+        }
+
+        #h3_2{
+            position: relative;
+            left: 435px;
+            bottom: 515px;
+            font-size: 22px;
+        }
+
+        #h3_3 {
+            position: relative;
+            bottom: 1165px;
+            left: 145px;
+            color: white;
+            font-size: 20px;
+        }
+        #h3_4{
+            position: relative;
+            bottom: 1559px;
+            left: 1233px;
+            font-size: 30px;
+            color: white;
+        }
+        #h3_5{
+            position: relative;
+            bottom: 760px;
+            left: 295px;
+        }
+        #h3_6{
+            position: relative;
+            bottom: 1007px;
+            left: 636px;
+        }
+
+
+        #assignment{
+            overflow-x: hidden;
+            background-color: #85557b;
+            position: relative;
+            top: 74px;
+            overflow-y: hidden;
+            width: 1240px;
+            right: 8px;
+            height: 1509px;
+        }
+        .assignment{
+            width: 335px;
+            height: 270px;
+            position: relative;
+            left: 20px;
+            transition: 1s;
+            border-radius: 10px;
+            border: 3px solid #D9D9D9;
+
+        }
+
+        .assignment:hover{
+            transform: rotate3d(1,1,1,360deg);
+            border: 3px solid red;
+
+        }
+
+        #assignment2{
+            position: relative;
+            top: 20px;
+        }
+
+        #assignment3{
+            position: relative;
+            bottom: 679px;
+            left: 457px;
+            width: 335px;
+            height: 275px;
+
+
+        }
+        #assignment4{
+            position: relative;
+            bottom: 660px;
+            left: 450px;
+            width: 335px;
+            height: 264px;
+
+        }
+
+        #assignment5{
+            position: relative;
+            bottom: 1355px;
+            left: 854px;
+            width: 320px;
+            height: 270px;
+        }
+
+        #assignment6{
+            position: relative;
+            bottom: 1335px;
+            left: 845px;
+        }
+
+        #assignment7 {
+            position: relative;
+            bottom: 1325px;
+            left: 10px;
+
+        }
+
+        #assignment8 {
+            position: relative;
+            bottom: 1660px;
+            left: 450px;
+
+        }
+
+        #assignment9 {
+            position: relative;
+            bottom: 2000px;
+            left: 840px;
+
+        }
+
+        #assignment10 {
+            position: relative;
+            bottom: 2010px;
+            left: 6px;
+
+        }
+        #assignment11 {
+            position: relative;
+            bottom: 2350px;
+            left: 450px;
+
+        }
+
+        #assignment12 {
+            position: relative;
+            bottom: 2695px;
+            left: 840px;
+
+        }
+
+        #ah3_1{
+            position: relative;
+            bottom: -24px;
+            left: 130px;
+
+        }
+
+        #ah3_2 {
+            position: relative;
+            left: 600px;
+            bottom: 320px;
+        }
+
+        #ah3_3{
+            position: relative;
+            bottom: 672px;
+            left: 985px;
+        }
+        #ah3_4{
+            position: relative;
+            bottom: 630px;
+            left: 135px;
+        }
+        #ah3_5{
+            position: relative;
+            bottom: 978px;
+            left: 590px;
+
+        }
+        #ah3_6{
+            position: relative;
+            bottom: 1374px;
+            left: 1050px;
+
+        }
+
+        #ah3_7 {
+            position: relative;
+            bottom: 1315px;
+            left: 130px;
+        }
+
+        #ah3_8 {
+            position: relative;
+            bottom: 1650px;
+            left: 590px;
+
+        }
+
+        #ah3_9{
+            position: relative;
+            bottom: 1995px;
+            left: 985px;
+        }
+
+        #ah3_10{
+            position: relative;
+            bottom: 1995px;
+            left: 115px;
+        }
+        #ah3_11 {
+            position: relative;
+            bottom: 2333px;
+            left: 575px;
+
+        }
+
+        #ah3_12{
+            position: relative;
+            bottom: 2675px;
+            left: 975px;
+
+        }
+        #Gallery{
+            background-color:#022A3C;
+            width: 1372px;
+            height: 580px;
+            position: relative;
+            bottom: 2167px;
+        }
+
+        #img1{
+
+        }
+
+        .gitClass{
+            width: 70px;
+            height: 50px;
+        }
+
+        #img2Gallery{
+            width: 255px;
+            position: relative;
+            top: 95px;
+            left: 10px;
+        }
+        #img3Gallery{
+            width: 235px;
+            /* height: 416px; */
+            position: relative;
+            left: 23px;
+            top: 85px;
+        }
+
+        #img4Gallery{
+            width: 265px;
+            position: relative;
+            left: 4px;
+            top: 105px;
+
+        }
+
+        #img6Gallery{
+            width: 400px;
+            position: relative;
+            left: 77px;
+            top: 80px;
+
+        }
+
+        #img13Gallery{
+            width: 404px;
+            position: relative;
+            left: 120px;
+            top: 85px;
+        }
+        #img14Gallery{
+            width: 456px;
+            position: relative;
+            left: 137px;
+            bottom: 65px;
+        }
+
+        #img15Gallery{
+            width: 400px;
+            position: relative;
+            left: 98px;
+            bottom: 65px;
+        }
+
+        #img7Gallery{
+            width: 301px;
+            position: relative;
+            left: 96px;
+            bottom: -141px;
+            padding: 4px;
+
+        }
+
+        #img8Gallery{
+
+        }
+        #img9Gallery{
+            width: 265px;
+            position: relative;
+            left: 12px;
+            bottom: 440px;
+        }
+
+        #img10Gallery{
+            width: 250px;
+            position: relative;
+            left: 3px;
+            bottom: 205px;
+
+        }
+        #img11Gallery {
+            width: 250px;
+            position: relative;
+            left: 12px;
+            bottom: 405px;
+        }
+        #img23Gallery{
+            width: 270px;
+            position: relative;
+            left: 75px;
+            bottom: 153px;
+
+        }
+        #img24Gallery{
+            width: 267px;
+            position: relative;
+            left: 257px;
+            bottom: 735px;
+        }
+        .gallery{
+            transition: 1s;
+        }
+
+        #glryBody{
+            background-color: #cfbbe4;
+            overflow-x: hidden;
+        }
+        #img5Gallery{
+            width: 252px;
+            position: relative;
+            left: 272px;
+            top: -73px;
+
+        }
+
+        #img6Gallery{
+            width: 270px;
+            position: relative;
+            left: 2px;
+            top: -70px;
+        }
+
+        #img13Gallery{
+            width: 247px;
+            position: relative;
+            left: 278px;
+            top: -240px;
+        }
+
+        #img15Gallery{
+            width: 444px;
+            position: relative;
+            left: 249px;
+            bottom: 65px;
+
+        }
+
+        #img16Gallery{
+            width: 200px;
+            position: relative;
+            left: 25px;
+            top: -210px;
+
+
+        }
+
+        #img17Gallery{
+            width: 260px;
+            position: relative;
+            left: 55px;
+            bottom: 265px;
+        }
+
+        #img18Gallery {
+            width: 230px;
+            position: relative;
+            left: 15px;
+            bottom: 190px;
+
+        }
+
+        #img19Gallery{
+            width: 260px;
+            position: relative;
+            left: 25px;
+            bottom: 300px;
+        }
+
+        #img7Gallery{
+            width: 235px;
+            position: relative;
+            left: 14px;
+            bottom: 165px;
+
+        }
+
+
+
+        #glryNext{
+            width: 64px;
+            position: relative;
+            bottom: 1589px;
+            left: -435px;
+        }
+
+        #glryPrevious2{
+
+        }
+        .gallery:hover{
+            transform: rotate(10deg);
+        }
+
+        #name{
+            width: 355px;
+            height: 28px;
+            position: relative;
+            top: 10px;
+            left: 65px;
+        }
+
+        #E-mail{
+            width: 355px;
+            height: 28px;
+            position: relative;
+            top: 20px;
+            left: 65px;
+        }
+
+        #subject{
+            width: 355px;
+            height: 28px;
+            position: relative;
+            top: 25px;
+            left: 65px;
+        }
+
+        #massage{
+            width: 355px;
+            height: 28px;
+            position: relative;
+            top: 30px;
+            left: 65px;
+        }
+
+        #submit {
+            width: 95px;
+            height: 25px;
+            position: relative;
+            top: 45px;
+            left: 170px;
+        }
+
+        #Contact{
+            background-color: #744461;
+            position: relative;
+            bottom: 705px;
+            width: 505px;
+            left: 20px;
+            height: 510px;
+        }
+
+        #contactH1Id{
+            color: #d0b2df;
+            font-size: 30px;
+            position: relative;
+            left: 205px;
+            font-style: italic;
+        }
+        #locationId{
+            width: 45px;
+        }
+
+        #contactId{
+            width: 100px;
+            position: relative;
+            bottom: 15px;
+            left: 10px;
+        }
+
+        #eMailId{
+            width: 45px;
+            position: relative;
+            bottom: 105px;
+
+        }
+
+        #phoneId{
+            width: 55px;
+            position: relative;
+            bottom: 185px;
+            right: 10px;
+        }
+        .contactClass{
+
+        }
+
+        #h3CId{
+            position: relative;
+            left:   118px;
+            bottom: 75px;
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+        }
+        .form{
+            position: relative;
+            right: 35px;
+        }
+
+        .p_style{
+            font-size: 15px;
+            background-color: #9882a5;
+            padding: 19px;
+        }
+
+        #P1{
+            position: relative;
+            left: 260px;
+            bottom: 190px;
+            width: 234px;
+            height: 150px;
+        }
+        #P2{
+            position: relative;
+            left: 5px;
+            bottom: 436px;
+            width: 268px;
+
+        }
+
+        #P3{
+
+
+            position: relative;
+            bottom: 1089px;
+            left: 258px;
+            width: 242px;
+
+        }
+
+        #P4{
+            position: relative;
+            bottom: 1348px;
+            left: 20px;
+            width: 210px;
+        }
+
+        #pCId{
+            position: relative;
+            left: 117px;
+            bottom: 95px;
+            font-weight: bold;
+        }
+
+        .project:hover{
+            transform: rotate3d(1,1,1,360deg);
+            border: 3px solid red;
+
+        }
+
+        #h3Class{
+
+        }
+
+        #h3EId{
+            position: relative;
+            left: 118px;
+            bottom: 150px;
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+        }
+        .pClass{
+
+        }
+
+        #pEId{
+            position: relative;
+            left: 11px;
+            bottom: 164px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        .h3Class{
+
+        }
+
+        #h3PId{
+            position: relative;
+            left: 113px;
+            bottom: 265px;
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+        }
+
+        .pClass{
+
+        }
+
+        #pPId{
+            position: relative;
+            left: 114px;
+            bottom: 293px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+
+
+        #formId{
+            border: 5px solid black;
+            position: relative;
+            bottom: 329px;
+            width: 420px;
+            height: 210px;
+            left: 65px;
+            border-radius: 24px;
+        }
+
+
+
+    }
